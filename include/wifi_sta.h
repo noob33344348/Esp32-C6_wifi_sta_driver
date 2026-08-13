@@ -3,8 +3,6 @@
 
 #include "esp_err.h"
 
-#define LOG true
-
 /**
  *
  * @brief Initialize WiFi in station (STA) mode.

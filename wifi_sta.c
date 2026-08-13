@@ -14,10 +14,10 @@
 
 
 #define MAX_TRIES 5
+#define TAG "wifi_sta";
+#define LOG true
 
 // Private global variables
-static const char* TAG = "wifi_sta";
-
 static bool status = false; // true connected, false otherwise
 static bool disconnecting = false;
 static uint8_t tries = 0;
